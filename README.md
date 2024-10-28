@@ -1,24 +1,16 @@
 # README
+This is a simple project using **Ruby on Rails** framework to develop a contacts application
+![alt text](image.png)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Versions:
 
-Things you may want to cover:
+* Ruby version : *3.3.5*
 
-* Ruby version
+* Rails version: *7.2.1.2*
 
-* System dependencies
+## To run the application: 
+Run the following command
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+``
+rails server
+``
