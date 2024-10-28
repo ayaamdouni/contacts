@@ -1,0 +1,11 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @profile %>
+
+<div>
+  <%= link_to "Edit this contact", edit_profile_path(@profile) %> |
+  <%= link_to "Back to contacts", profiles_path %>
+
+  <%= button_to "Delete this contact", @profile, method: :delete%>
+</div>
+

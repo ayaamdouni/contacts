@@ -1,0 +1,24 @@
+<div id="<%= dom_id profile %>">
+  <p class="user-picture" style="font-size:20px; display: flex; align-items: center;">
+    <i class="material-icons" style="font-size:40px; ">person</i>
+  </p>
+  <p>
+    <span class="name-client"><%= profile.name %></span>
+  </p>
+  <p>
+    <i class="fa fa-linkedin-square" style="font-size:24px"></i>
+    <%= link_to "linkedIn/#{profile.name}", profile.linkedin  %>
+  </p>
+
+  <p>
+    <i class="fa fa-envelope" style="font-size:24px"></i>
+    <%= mail_to profile.email, profile.email %>
+  </p>
+
+  <p>
+    <i class="fa fa-phone" style="font-size:24px"></i>
+    <%= profile.phone %>
+  </p>
+
+</div>
+
